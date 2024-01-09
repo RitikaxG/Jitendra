@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 load_dotenv()
 
-openai_api_key = "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"
+openai_api_key = "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"
 
 def chat_with_csv(df,prompt):
     llm = OpenAI(api_token=openai_api_key)
